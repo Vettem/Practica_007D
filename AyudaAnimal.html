@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG - Ayuda Animal</title>
+    <link type="text/css" rel="stylesheet" href="css/css_ayudaanimal.css">
+    <style>
+    body{
+        background-color: rgb(174, 216, 230);
+    }
+    a:link, a:visited {
+        background-color: #4eb0f1;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover, a:active {
+        background-color: rgb(174, 216, 230);
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    /*Barra navegacion*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+    </style>
 </head>
 <body>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#news">Noticias</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li style="float:right"><a class="active" href="#about">Sobre Nosotros</a></li>
+    </ul>
     <h1><center>Ayuda Animal</center></h1>
     <center>Esta organización esta destinada al cuidado de animales que se encuentran en situación de calle,<br>
     brindandoles los cuidados necesarios mientras encuentran una familia capaz de darles todos los cuidados y por<br>
@@ -17,10 +76,10 @@
         ¬ Edison Pardo - Veterinario<br>
         ¬ Cristopher Curin - Adiestrador</center>
     
-    <h2><center>Secciones de Ayuda</center></h2>
-    <img src="img/dog1.png" alt="Sin Imagen">
-    <a href="paginaperros.html" target="_blank">Perros</a><br>
-    <img src="img/cat1.png" alt="Sin Imagen">
-    <a href="Gato.html" target="_blank">Gatos</a>
+    <h2><center>Secciones de Ayuda <br></center></h2>
+    <div class="center">
+    <a tittle="Perros" href="paginaperros.html" target="_blank"><img src="img/dog1.png" alt="Perros" class="tamano_imagenperro"/></a><br>
+    <a tittle="Gatos" href="Gato.html" target="_blank"><img src="img/cat1.png" alt="Gatos" class="tamano_imagenperro"/></a>
+    </div>
 </body>
 </html>
