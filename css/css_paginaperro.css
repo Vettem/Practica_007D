@@ -1,4 +1,11 @@
 .tamano_imagen{
     width: 250px;
     height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido{
+    display: flex;
+    margin: 60px;
 }
