@@ -5,73 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perros en Adopción</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/css_paginaperro.css">
-    
-    <style>
-    body{
-        background-color: rgb(174, 216, 230);
-    }
-    a:link, a:visited {
-        background-color: #4eb0f1;
-        color: white;
-        padding: 14px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-    }
-
-    a:hover, a:active {
-        background-color: rgb(85, 144, 163);
-    }
-    .center {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    /*Barra navegacion*/
-    ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-    li {
-        float: left;
-    }   
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .active {
-  background-color: #04AA6D;
-    } 
-    </style>
 </head>
 <body>
-    <ul>
-        <li><a href="AyudaAnimal.html">Inicio</a></li>
-        <li><a href="#news">Noticias</a></li>
-        <li><a href="#contact">Contacto</a></li>
-        <li style="float:right"><a class="active" href="#about">Sobre Nosotros</a></li>
-    </ul>
-    <center><h1>Perros en Adopción</h1></center>
-    <center> Nuestros perritos estan en busca de un hogar y se encuentran listos para compartir contigo<br>
-        a continuación se muestran aquellos caninos que estan disponibles para ser adoptados  </center> 
-        <center> <h1>Nuestros perritos que buscan familia:</h1> </center>
+    <header id="titulo">
 
-        <div align="center"><img src="img/perrito1.png" alt="Sin imagen" class="tamano_imagen"> </div>
-        <div align="center"><a href="Simon.html" target="_blank">Simón</a> </div>
-        <div align="center"> <img src="img/perrito2.jfif" alt="Sin imagen" class="tamano_imagen"> </div> 
-        <div align="center"><a href="Rocco.html" target="_blank">Rocco</a> </div>
-        <div align="center"><img src="img/perrito4.png" alt="Sin imagen" class="tamano_imagen"> </div>
-        <div align="center"><a href="Tobby.html" target="_blank">Tobby</a> </div>
+        <a href="AyudaAnimal.html">PAGINA PRINCIPAL</a>
+        <h1>PERROS EN ADOPCIÓN</h1>
+ 
+        <center>
+            Nuestros perritos estan en busca de un hogar y se encuentran listos para compartir contigo<br>
+            a continuación se muestran aquellos caninos que estan disponibles para ser adoptados.
+        </center>  
+            
+    </header>
+
+        <center><h2>Nuestros perros que buscan familia</h2></center>
+
+        <br>
+        <br>
+        <br>
+    
+        <section class="container">
+    
+            <article>
+                <h2> Simón </h2>
+                <a tittle="Simón" href="Simon.html" target="_blank"><img src="img/perrito1.png" alt="Simón" width="400"/></a>
+            </article>
+            <article>
+                <h2> Rocco </h2>
+                <a tittle="Rocco" href="Rocco.html" target="_blank"><img src="img/perrito2.jfif" alt="Rocco" width="400"/></a>
+            </article>
+            <article>
+                <h2> Tobby </h2>
+                <a tittle="Tobby" href="Tobby.html" target="_blank"><img src="img/perrito4.png" alt="Tobby" width="400"/></a>
+            </article>
+            
+        </section>
         
 </body>
 </html>

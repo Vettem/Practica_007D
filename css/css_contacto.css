@@ -50,3 +50,8 @@ section article h2, section article p {
     text-align: center;
     margin: 1rem;
 }
+
+section article h4, section article p {
+    text-align: center;
+    margin: 1rem;
+}
