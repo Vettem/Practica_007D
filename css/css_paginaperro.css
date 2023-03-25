@@ -1,6 +1,6 @@
 .tamano_imagen{
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -66,4 +66,8 @@ section article h2, section article p {
 section article h4, section article p {
     text-align: center;
     margin: 1rem;
+}
+.tam{
+    width: 100%;
+    max-width: 400px;
 }

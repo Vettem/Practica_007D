@@ -51,3 +51,7 @@ section article h2, section article p {
     text-align: center;
     margin: 1rem;
 }
+.tam{
+    width: 100%;
+    max-width: 500px;
+}
